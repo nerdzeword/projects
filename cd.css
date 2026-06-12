@@ -1,0 +1,119 @@
+.workcontainer {
+width: 100%;
+height: auto;
+position: relative;
+align-items: center;
+display: block;
+margin:0 auto;
+}
+
+.cd {
+display: inline-block;
+align-items: center;
+justify-content: center;
+max-width: 100%;
+height: auto;
+}
+
+.cd-circle {
+position: relative;
+width: 468px;
+height: 468px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+background: conic-gradient(#f8fefc, #e3e4dc, #cdcec6, #bfc0ba, #b0aea2,#a1a199,#aa9e91, #a5a090, #c2a28a, #9f988e, #b1ad9a,#c2bcae, #cccabe, #e1e2dc, #f1f3f0, #f8fcfb, #d8dbd4, #b8b8b2, #aeafa7, #adada3, #abac9e, #aeb999, #aaa493, #9a988e, #9b9584, #a3a38b, #b5b29f, #d1d1c9, #e6e7e1, #f3f6ef, #f0fdf6, #f8fefc);
+}
+
+.cd-circle::before {
+content: "";
+border-radius: 50%;
+width: 120px;
+height: 120px;
+z-index: 0;
+position: absolute;
+background: radial-gradient(#ffffff 30%, #fbfbfb 2%, #ffffff11 40%, #2f31311c 2%, #f4feff6b 4%);
+}
+
+.cd-circle::after {
+content: "";
+width: 478px;
+height: 472px;
+display: inherit;
+border-radius: 50%;
+z-index: -1;
+background: conic-gradient(#0c2626,#65baad, #595750,#040405, #040405, #3e2c26, #43251b, #6b2a0d, #be703a, #3e5b56, #1f4b53,#253a48,#57767d, #233343,#040405, #000009, #02050c, #040405, #030610, #000408, #001005, #555a62,#070909, #120a03,#2e0c06, #050102,#303e42, #090e0d,#000d06, #030911,#16272c,#0c2626);
+}
+
+.cd-glare {
+position: absolute;
+width: 468px;
+height: 468px;
+}
+
+.cd-logo {
+font-family: "Clarendon", "Clarendon Wide", "Latin Modern Roman", "Georgia", serif;
+text-transform: uppercase;
+position: relative;
+display: inline-block;
+z-index: 4;
+left: 0px;
+top: 160px;
+}
+
+p.cd-logo {
+font-size: 25px;
+font-weight: bold;
+letter-spacing: 2px;
+transform: scaleY(.75);
+left: 60px;
+top: 0px;
+opacity: 70%;
+background-image: linear-gradient(to bottom right, #a7957e, #533d29,#a92a25);
+background-clip: text;
+color: transparent;
+}
+
+h2.cd-logo {
+font-size: 38px;
+font-style: italic;
+left: -30px;
+top: 50px;
+letter-spacing: -1px;
+transform: scaleY(2);
+opacity: 70%;
+background-image: linear-gradient(to bottom left, #3f3826, #595528,#657e56);
+background-clip: text;
+color: transparent;
+font-weight:bold; 
+}
+
+h3.cd-logo {
+font-size: 38px;
+font-style: italic;
+left: 130px;
+top: 20px;
+letter-spacing: -1px;
+transform: scaleY(2);
+opacity: 60%;
+background-image: linear-gradient(to bottom right, #85685c, #aa4459, #5e436d, #5d6b6d);
+background-clip: text;
+border-bottom: none;
+color: transparent;
+font-weight:bold;
+ }
+
+h4.cd-logo {
+font-size: 15px;
+font-style: italic;
+left: 125px;
+top: 20px;
+letter-spacing: -1px;
+transform: scaleY(2);
+opacity: 70%;
+background-image: linear-gradient(to bottom right, #615769, #4e4257);
+background-clip: text;
+color: transparent;
+font-weight:bold; 
+}
