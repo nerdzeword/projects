@@ -117,7 +117,7 @@ background-clip: text;
 color: transparent;
 font-weight:bold; 
 }
-#workskin .write {
+.write {
 border-radius: 50%;
 overflow: auto;
 display: flex;
@@ -128,7 +128,7 @@ top: 0px;
 position: absolute;
 }
 
-#workskin h1.writing {
+h1.writing {
 font-family: 'Mansalva','Gloria Hallelujah','segoe script','Indie Flower', 'Monotype Corsiva', 'Zapfino', 'URW Chancery L', 'Lucida Handwriting','Bradley Hand ITC', 'Brush Script MT', cursive;
 z-index: 8;
 font-size: 50px;
@@ -142,7 +142,7 @@ top: 72px;
 transform: rotate(-11deg);
 }
 
-#workskin p.writing {
+ p.writing {
 font-family: 'Mansalva','Gloria Hallelujah','segoe script','Indie Flower', 'Monotype Corsiva', 'Zapfino', 'URW Chancery L', 'Lucida Handwriting','Bradley Hand ITC', 'Brush Script MT', cursive;
 z-index: 8;
 font-size: 17px;
